@@ -1,0 +1,28 @@
+#Calculadora: Valor mínimo para receber cashback
+
+print("Calcule se jogador atingiu o valor mínimo de 200 reais\n")
+
+apostas = float(input("Total de Apostas da Semana Passada: "))
+premios = float(input("Total de Premiações da Semana Passada: "))
+
+resultado = apostas - premios
+resultado_round = round(resultado, 2)
+resultado_ganho = resultado * -1
+resultado_ganho_round = round(resultado_ganho, 2)
+
+if resultado >= 0:
+  print("\n")
+  print("O jogador perdeu: ", resultado_round)
+
+  if resultado >= 200:
+    print("O jogador atingiu o valor mínimo de 200 reais")
+    print("Verifique os outros requisitos caso o jogador não tenha conseguido resgatar o valor")
+    print("\n")
+
+  else:
+    print("O jogador não atingiu o valor mínimo de 200 reais")
+
+else:
+  print("\n")
+  print("O jogdor ganhou: ", resultado_ganho_round)
+  print("O jogador não atingiu o valor mínimo de 200 reais")
