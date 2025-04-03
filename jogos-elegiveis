@@ -1,0 +1,29 @@
+#Jogos não elegíveis para Cashback
+#Modificações: Versão + minimalista
+
+while True:
+  j1 = ["Cash or Crash", "Football 10000x", "Run Rabit Run", "Dice", "Double", "Limbo", "Spaceman", "Release the Kraken", "Fruit Party", "Madame Destiny Megaways"]
+  j2 = ["Fruit Party 2", "Wild West Duels", "Muertos Multiplier Megaways", "Black Bull", "Spirit of Adventure", "Cosmic Cash"]
+  j3 = ["Release the Kraken 2", "#Crazy Hunter", "Fire Archer", "Poker King", "Number King", "Dragon & Tiger", "7up7down"]
+  j4 = ["Baccarat Tada", "Color Game", "Andar Bahar", "Golden Land", "Go Rush"]
+  j5 = ["Mines Tada", "Tower Tada", "Limbo TaDa", "Fortunes of Aztec", "Keno TaDa", "Book of Tut Megaways"]
+  j6 = ["Big Bass Crash", "Gravity Bonanza", "Rainbow Reels", "Wild Depths", "Baccarat PP", "Twilight Princess", "Demon Pots"]
+  j7 = ["First Person Baccarat", "Dream Catcher", "Crazy Time", "Side Bet City", "Baccarat Squeeze", "Infinite Free Bet Blackjack"]
+  j8 = ["Dragon Tiger", "First Person Dragon Tiger", "2 Hand Casino Hold'em", "Immersive Roulette", "Monopoly Live", "Lightning Roulette", "Baccarat Control Squeeze"]
+  j9 = ["Blackjack Party", "Lightning Baccarat", "Double Ball Roulette", "Auto Roulette", "Instant Roulette", "Deal or No Deal Live", "First Person Blackjack"]
+  j10 = ["Mea Ball", "Lightning Dice", "First Person Mega Ball", "Infinite Blackjack", "Football Studio", "Super Sic Bo", "Power Blackjack"]
+  j11 = ["American Roulette", "First Person Dream Catcher", "First Person Craps", "XXXtreme Lighting Roulette", "Monopoly Big Baller", "Crazy Coin Flip"]
+  j12 = ["Emperor Sic Bo", "Fan Tan", "Emperor Speed Baccarat A", "Golden Wealth Baccarat", "Peek Baccarat"]
+
+  jogos_nao_elegiveis = j1 + j2 + j3 + j4 + j5 + j6 + j7 + j8 + j9 + j10 + j11 + j12
+
+  print("Confira aqui se o jogo é elegível para Cashback\n")
+  jogo = input("Digite o nome do jogo: ")
+  print()
+
+  if jogo in jogos_nao_elegiveis:
+    print("Esse jogo NÃO É ELEGÍVEL para Cashback\n")
+
+  else:
+    print("Esse jogo É ELEGÍVEL para Cashback\n")
+
